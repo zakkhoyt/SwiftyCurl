@@ -27,7 +27,7 @@ task.resume()
 
 Outputs:
 ````
-curl -H "User-Agent:123234345" -X GET "http://api.openweathermap.org/data/2.5/weather?lat=37.78&lon=-122.41&APPID=4199a667b2597ff5b28f33ec06d6a31b"
+curl -H "User-Agent:XXXXXXXXX" -X GET "http://api.openweathermap.org/data/2.5/weather?lat=37.78&lon=-122.41&APPID=XXXXXXXXXXXXXX"
 ````
 
 ### Generate curl reports from URLSessionTask (prints request, response, and represents payload in text)
@@ -49,7 +49,7 @@ Outputs
 ````
 **************** HTTP SUCCESS 200 **********************
 **** REQUEST ****
-curl -H "User-Agent:123234345" -X GET "http://api.openweathermap.org/data/2.5/weather?lat=37.78&lon=-122.41&APPID=4199a667b2597ff5b28f33ec06d6a31b"
+curl -H "User-Agent:XXXXXXXXXX" -X GET "http://api.openweathermap.org/data/2.5/weather?lat=37.78&lon=-122.41&APPID=XXXXXXXXXXXXXXXXX"
 **** PAYLOAD ****
 {
     base = stations;
